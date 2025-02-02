@@ -18,14 +18,14 @@ At the core of my homelab is Proxmox, a robust virtualization platform that allo
 
 ### Proxmox VMs
 - OPNsense Firewall
-- Cockpit Project LXC - Debian
-- Cockpit Project LXC- Ubuntu
-- HAOS
-- Ubuntu
+- Cockpit Project (LXC) - Debian
+- Cockpit Project (LXC)- Ubuntu
+- Ubuntu DEV and PROD environments
 - TrueNAS Core for hot storage
 - Windows 11
 - Windows 11 LTS
 - Kali Linux
+- HAOS
 
 ### Bare Metal Servers
 - Truenas Core - Primary Backup
