@@ -1,8 +1,10 @@
 ## About me
 
-Information Security professional with and passionate technology enthusiast, I've built and maintain an advanced homelab infrastructure that serves as my personal playground for exploring cutting-edge technologies and honing my IT and security skills. My setup is designed with a focus on security, performance, flexibility, and high availability, leveraging a range of powerful tools and platforms.
+As an Information Security professional and passionate technology enthusiast, I've built and maintain an advanced homelab infrastructure that serves as my personal playground for exploring cutting-edge technologies and honing my IT and security skills. My setup is designed with a focus on security, performance, flexibility, and high availability, leveraging a range of powerful tools and platforms.
 
 ## Homelab setup
+
+My homelab journey is a continuous learning experience, pushing me to explore new technologies, overcome challenges, and develop a deep understanding of modern IT infrastructure. It's not just a hobby; it's a dynamic environment where I can experiment with enterprise-grade solutions, enhance my skills in areas ranging from network security to home automation, and stay at the forefront of technological advancements. The combination of high-speed networking, robust virtualization, advanced security measures, and automation tools allows me to create a homelab that rivals many professional setups, providing an invaluable platform for learning and innovation.
 
 <p align="center">
 <img src="https://github.com/user-attachments/assets/4c286a28-22a1-4796-8a36-5d4740cdb220" alt="Alt Text" width="400" height="400">
@@ -10,7 +12,23 @@ Information Security professional with and passionate technology enthusiast, I'v
 
 ## Infrastructure and Virtualization
 
-At the core of my homelab is Proxmox, a robust virtualization platform that allows me to efficiently manage multiple virtual machines and containers. This setup provides the flexibility to run various services while optimizing hardware resources. To ensure data integrity and storage efficiency, I utilize TrueNAS, a powerful network-attached storage solution that offers advanced features like ZFS, snapshots, and data replication.
+At the core of my homelab is Proxmox, a robust virtualization platform that allows me to efficiently manage multiple virtual machines and containers. This setup provides the flexibility to run various services while optimizing hardware resources. 
+
+### Proxmox VMs
+- OPNsense Firewall
+- Cockpit Project LXC - Debian
+- Cockpit Project LXC- Ubuntu
+- HAOS
+- Ubuntu
+- TrueNAS Core for hot storage
+- Windows 11
+- Windows 11 LTS
+- Kali Linux
+
+### Bare Metal Servers
+- Truenas Core - Primary Backup
+- Truenas Core - Secondary Backup
+
 
 ## Network Architecture
 
@@ -22,13 +40,14 @@ To enhance security and network segmentation, I've implemented VLANs throughout 
 Securing my network is paramount, which is why I've implemented OPNsense as my firewall solution. This open-source, FreeBSD-based firewall offers advanced features like intrusion detection, traffic shaping, and VPN capabilities. For secure remote access, I rely on WireGuard VPN, a modern and efficient protocol that allows me to safely connect to my homelab from anywhere in the world.
 To further enhance my network security and improve browsing experience, I've deployed AdGuard Home. This powerful DNS sinkhole blocks ads and trackers at the network level, providing a cleaner and safer internet experience for all devices on my network.
 
-## Automation and Containerization
-
-To streamline deployment and configuration, I've embraced Docker containerization and Ansible automation. Docker enables me to package and run applications in isolated environments, ensuring consistency and easy scalability. Ansible allows me to define my infrastructure as code, facilitating quick deployments and maintaining consistency across my environment.
 
 ## Security Monitoring and Password Management
 
 I've integrated Wazuh, an open-source security monitoring solution, to provide real-time threat detection and response capabilities across my homelab infrastructure. For password management, I self-host Bitwarden, ensuring that my sensitive credentials are stored securely and easily accessible when needed.
+
+## Automation and Containerization
+
+To streamline deployment and configuration, I've embraced Docker containerization and Ansible automation. Docker enables me to package and run applications in isolated environments, ensuring consistency and easy scalability. Ansible allows me to define my infrastructure as code, facilitating quick deployments and maintaining consistency across my environment.
 
 ## Home Automation
 
@@ -38,13 +57,13 @@ My homelab extends into home automation, where I use Home Assistant to integrate
 
 Recognizing the importance of data protection, I've implemented a comprehensive backup strategy. This includes:
 - Regular snapshots of critical VMs and containers
-- Offsite backups using TrueNAS replication to a remote location
-- Cloud backups for essential data using rclone to encrypt and sync to cloud storage providers
+- Backup replication using rclone to encrypt and sync on a separate local server
+- Offsite backups remote location
 
 To ensure high availability for critical services, I've set up:
 - Proxmox clusters with live migration capabilities
 - Load balancing for web services using HAProxy
 - Redundant storage with TrueNAS using ZFS RAID configurations
-- Automated failover for key services using Keepalived
+- Automated failover for network and key services
 
-My homelab journey is a continuous learning experience, pushing me to explore new technologies, overcome challenges, and develop a deep understanding of modern IT infrastructure. It's not just a hobby; it's a dynamic environment where I can experiment with enterprise-grade solutions, enhance my skills in areas ranging from network security to home automation, and stay at the forefront of technological advancements. The combination of high-speed networking, robust virtualization, advanced security measures, and automation tools allows me to create a homelab that rivals many professional setups, providing an invaluable platform for learning and innovation.
+
