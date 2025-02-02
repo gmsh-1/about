@@ -1,7 +1,10 @@
 ## About me and Homelab setup
 ![IMG20250201172132](https://github.com/user-attachments/assets/4c286a28-22a1-4796-8a36-5d4740cdb220)
 
-As a passionate technology enthusiast, I've built and maintain an advanced homelab that serves as my personal playground for exploring cutting-edge technologies and honing my IT skills. My setup is designed with a focus on security, performance, flexibility, and high availability, leveraging a range of powerful tools and platforms.
+
+Information Security professional with and passionate technology enthusiast, I've built and maintain an advanced homelab infrastructure that serves as my personal playground for exploring cutting-edge technologies and honing my IT and security skills. My setup is designed with a focus on security, performance, flexibility, and high availability, leveraging a range of powerful tools and platforms.
+
+<img src="![IMG20250201172132](https://github.com/user-attachments/assets/4c286a28-22a1-4796-8a36-5d4740cdb220)" alt="drawing" width="200"/>
 
 ## Infrastructure and Virtualization
 
