@@ -1,10 +1,12 @@
-## About me and Homelab setup
-![IMG20250201172132](https://github.com/user-attachments/assets/4c286a28-22a1-4796-8a36-5d4740cdb220)
-
+## About me
 
 Information Security professional with and passionate technology enthusiast, I've built and maintain an advanced homelab infrastructure that serves as my personal playground for exploring cutting-edge technologies and honing my IT and security skills. My setup is designed with a focus on security, performance, flexibility, and high availability, leveraging a range of powerful tools and platforms.
 
-<img src="![IMG20250201172132](https://github.com/user-attachments/assets/4c286a28-22a1-4796-8a36-5d4740cdb220)" alt="drawing" width="200"/>
+## Homelab setup
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/4c286a28-22a1-4796-8a36-5d4740cdb220" alt="Alt Text" width="400" height="400">
+</p>
 
 ## Infrastructure and Virtualization
 
